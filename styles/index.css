@@ -4,6 +4,15 @@
     color: #f9faf8;
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+section {
+    min-height: 30%;
+}
 a {
     text-decoration: none;
 }
@@ -20,10 +29,12 @@ button {
     border: none;
     font-size: medium;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 img {
     width: 25rem;
+    margin-bottom: 20px;
 }
 
 header {
@@ -58,20 +69,60 @@ div p {
 .main-text {
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 0;
 }
 .section-1 img {
-    width: 800px;
+    width: 500px;
     height: 220px;
     object-fit: cover; /* Ensure the image scales well */
 }
 
 h2,
 .left-text {
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-right: 5%;
+    min-width: 500px;
 }
 
 header nav,
 .section-1 img {
-    margin-right: 5%;
+    margin-right: 10%;
+}
+
+.section-2 {
+    background-color: #f9faf8;
+    color: #1f2937;
+    margin: 0;
+    padding: 0;
+}
+
+.section-2 * {
+    background-color: inherit;
+}
+
+.section-2 h2 {
+    margin: 0;
+    padding-top: 30px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.section-2 ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.section-2 p {
+    color: #1f2937;
+}
+
+.section-2 ul li img {
+    width: 120px;
+    height: 120px;
+    border: #3b81f6 3px solid;
+    border-radius: 10px;
+}
+
+.section-2 ul li p {
+    width: 120px;
 }
