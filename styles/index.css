@@ -12,7 +12,7 @@ body {
     padding: 0;
 }
 section {
-    min-height: 30%;
+    min-height: 33%;
 }
 a {
     text-decoration: none;
@@ -81,7 +81,7 @@ div p {
 }
 
 h2,
-.left-text {
+.section-1 .left-text {
     margin-left: 10%;
     margin-right: 5%;
     min-width: 500px;
@@ -116,6 +116,7 @@ header nav,
     display: flex;
     gap: 30px;
     justify-content: center;
+    margin: 0;
 }
 
 .section-2 p {
@@ -158,4 +159,44 @@ header nav,
 .author {
     position: relative;
     left: 70%;
+    width: 20%;
+}
+
+.section-4 {
+    background-color: #f9faf8;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 * {
+    background-color: inherit;
+}
+
+.box {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 70%;
+    background-color: #3c82f6;
+}
+
+.section-4 button {
+    border: 2px solid #f9faf8;
+}
+
+.section-4 .left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
 }
