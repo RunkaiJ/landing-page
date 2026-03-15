@@ -10,7 +10,7 @@
 
 header,
 section {
-    padding: 20px 30px 35px 35px;
+    padding: 20px 70px 30px 70px;
     margin: 0 auto;
 }
 
@@ -55,6 +55,7 @@ section {
     justify-content: center;
     padding-top: 70px;
     padding-bottom: 70px;
+    gap: 20px;
 }
 
 .container-one,
@@ -62,8 +63,15 @@ section {
     width: 50%;
 }
 
+.container-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .container-one *{
     margin-bottom: 15px;
+    text-align: start;
 }
 .container-two {
     background-color: #6d747d;
